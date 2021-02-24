@@ -1,0 +1,28 @@
+{
+    "name": "lpheller/tailwind-scss-preset",
+    "description": "Laravel frontend preset combining Tailwind CSS with SCSS",
+    "keywords": [
+        "laravel",
+        "preset",
+        "tailwindcss",
+        "scss",
+        "sass"
+    ],
+    "license": "MIT",
+    "require": {
+        "laravel/framework": "^8.0",
+        "laravel/ui": "^3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Lpheller\\TailwindScssPreset\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Lpheller\\TailwindScssPreset\\TailwindScssPresetServiceProvider"
+            ]
+        }
+    }
+}
